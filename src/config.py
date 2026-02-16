@@ -1,5 +1,3 @@
-# src/config.py
-
 import os
 from pathlib import Path
 from dotenv import load_dotenv
@@ -51,7 +49,7 @@ RISK_FREE_RATE = 0.045  # Taxa livre de risco (Treasury 10y ~4.5%)
 
 # Bloco de Teste Rápido
 if __name__ == "__main__":
-    print(f"✅ Configuração carregada com sucesso!")
-    print(f"📂 Raiz do Projeto: {PROJECT_ROOT}")
-    print(f"💽 Banco de Dados Alvo: {DB_CONFIG['database']}")
-    print(f"📈 Total de Ativos monitorados: {len(STOCKS)}")
+    print(f" Configuração carregada com sucesso!")
+    print(f" Raiz do Projeto: {PROJECT_ROOT}")
+    print(f" Banco de Dados Alvo: {DB_CONFIG['database']}")
+    print(f" Total de Ativos monitorados: {len(STOCKS)}")
